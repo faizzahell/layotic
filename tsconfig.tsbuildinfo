@@ -1,0 +1,1 @@
+{"root":["./src/main.ts","./src/vite-env.d.ts","./src/app.vue","./src/components/hero/hero.vue","./src/components/navbar/navbar.vue","./src/components/preloader/preloader.vue","./src/components/scrollpercentage/scrollpercentage.vue","./src/layouts/home.vue"],"version":"5.8.3"}

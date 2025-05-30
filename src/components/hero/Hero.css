@@ -1,0 +1,140 @@
+/* 4. hero-section */
+.hero-section {
+  position: relative;
+  padding-top: 187px;
+  overflow: hidden;
+  background-color: var(--bgcolor);
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-bottom: 70px;
+  min-height: 90vh;
+}
+.hero-text {
+  position: relative;
+  margin-top: 40px;
+}
+.hero-text {
+  padding-bottom: 64px;
+}
+
+.hero-text p {
+  font-size: 22px;
+  color: #000;
+  line-height: 36px;
+}
+.hero-text span {
+  background-color: #fff;
+  padding: 4px 20px;
+  border-radius: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+.hero-text img.heroimg {
+  position: absolute;
+  right: -25%;
+  z-index: 1;
+  bottom: -47%;
+  width: 52%;
+  height: auto;
+}
+.hero-text h2 {
+  /* color: #fff; */
+  padding-bottom: 26px;
+  line-height: 90px;
+  font-weight: bold;
+  font-size: 85px;
+}
+.hero-text h2 span {
+  color: var(--main-color);
+}
+.hero-text ul li {
+  color: white;
+  padding-bottom: 18px;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+.hero-text ul li img {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  border-radius: 50%;
+  background-color: #ffffff30;
+  margin-right: 17px;
+  padding: 7px;
+}
+.listing {
+  justify-content: space-between;
+  width: 89%;
+}
+.hero-text > img {
+  margin-left: auto;
+  display: block;
+  height: 263px;
+  margin-top: 30px;
+}
+.review {
+  display: flex;
+  align-items: center;
+}
+.review h6 {
+  font-weight: bold;
+  padding-left: 8px;
+}
+.review ul {
+  display: flex;
+  /* margin-left: 20px; */
+}
+.review img {
+  margin: 0px 30px;
+}
+.review ul li {
+  padding-right: 4px;
+}
+
+/* 07. shaps-img */
+ul.shaps-img li {
+  position: absolute;
+}
+ul.shaps-img li:nth-child(1) {
+  top: 20%;
+  left: 11%;
+  animation: 8s rotate infinite;
+}
+ul.shaps-img li:nth-child(2) {
+  top: 52%;
+  left: 10%;
+  animation: 10s toptop infinite;
+}
+ul.shaps-img li:nth-child(3) {
+  bottom: 23%;
+  left: 4%;
+  animation: 10s toptop infinite;
+}
+
+/* 25. hero-section.two */
+.hero-section.two .review img {
+  margin-left: 0;
+}
+.hero-section.two {
+  text-align: center;
+  margin: auto;
+  padding-top: 230px;
+}
+.hero-section.two .review {
+  margin-top: 60px;
+  justify-content: center;
+}
+.hero-section.two p {
+  text-align: center;
+  margin: auto;
+}
+.hero-section.two ul.shaps-img li:nth-child(4) {
+  bottom: 16%;
+  left: 31%;
+}
+.hero-section.two .listing {
+  margin: auto;
+}

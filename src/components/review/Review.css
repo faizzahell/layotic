@@ -1,0 +1,77 @@
+/* 16. clients-section */
+.clients-section {
+  background-color: #000;
+}
+.clients-section .heading h2 {
+  width: 100%;
+  color: #fff;
+}
+.clients-section .heading {
+  width: 100%;
+}
+.clients-img img {
+  border-radius: 50%;
+  border: 1px solid var(--bgcolor);
+  margin-right: 24px;
+}
+.clients-img {
+  display: flex;
+  align-items: center;
+}
+ul.star {
+  display: flex;
+  font-size: 14px;
+  gap: 4px;
+}
+.clients-img i {
+  color: #565656;
+  font-size: 20px;
+}
+.clients-img ul.star i {
+  color: var(--bgcolor);
+  font-size: 12px;
+}
+.clients-img h3 {
+  color: #fff;
+  font-size: 24px;
+  margin-right: 20px;
+  padding-bottom: 10px;
+}
+.clients {
+  width: 650px;
+  background-color: #303034;
+  padding: 40px;
+  border-radius: 25px;
+}
+.clients p {
+  padding-top: 20px;
+  color: #fff;
+}
+.clients-section {
+  position: relative;
+}
+.clients-section ul.shaps-img li:nth-child(1) {
+  z-index: 111;
+  top: 15%;
+  animation: top-bottom 2s infinite;
+}
+.clients-section ul.shaps-img li:nth-child(2) {
+  top: 18%;
+  left: auto;
+  right: 10%;
+  animation: 22s rotate infinite;
+}
+.section-client {
+  position: relative;
+}
+.section-client ul.shaps-img li:nth-child(2) {
+  top: -20%;
+}
+.section-client ul.shaps-img li:nth-child(2) {
+  top: -20%;
+}
+.section-client ul.shaps-img li:nth-child(1) {
+  top: 68%;
+  left: 89%;
+  animation: 8s rotate infinite;
+}

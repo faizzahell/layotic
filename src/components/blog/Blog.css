@@ -1,0 +1,37 @@
+/* 17. blog */
+.blog img {
+  width: 100%;
+  border-radius: 25px;
+  transform: scale(1.1);
+}
+.blog figure {
+  border-radius: 25px;
+}
+#blog {
+  position: relative;
+}
+#blog ul.shaps-img li:nth-child(1) {
+  animation: 20s leftleft infinite;
+  left: 2%;
+}
+.blog > a {
+  color: #000;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 40px;
+  padding-top: 10px;
+  display: block;
+  padding-bottom: 10px;
+}
+.blog {
+  position: relative;
+  z-index: 11;
+}
+.blog-img {
+  position: relative;
+}
+.blog-img .tag {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}

@@ -1,0 +1,190 @@
+.input-highlight {
+  padding: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 0 0 0px #000;
+}
+.result-card {
+  transition: all 0.3s ease;
+  border-radius: 20px;
+}
+
+.price-slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 8px;
+  border-radius: 4px;
+  background: #d1d5db;
+  outline: none;
+}
+.price-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #328e6e;
+  cursor: pointer;
+}
+.price-slider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #328e6e;
+  cursor: pointer;
+}
+
+.tokopedia-badge {
+  background: linear-gradient(135deg, #41b549 0%, #2d8a33 100%);
+}
+.tokopedia-badge i {
+  color: #fff;
+}
+.pcb-example {
+  border-radius: 8px;
+  height: auto;
+  width: auto;
+}
+
+/* Notification Styles */
+.notification {
+  position: fixed;
+  bottom: 120px;
+  right: 20px;
+  padding: 16px 24px;
+  border-radius: 8px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+  transform: translateX(150%);
+  transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  z-index: 1000;
+}
+.notification.show {
+  transform: translateX(0);
+}
+.notification.error {
+  background-color: #fee2e2;
+  color: #b91c1c;
+  border-left: 4px solid #dc2626;
+}
+.notification.success {
+  background-color: #d1fae5;
+  color: var(--bgcolor);
+  border-left: 4px solid #10b981;
+}
+.notification-icon {
+  margin-right: 12px;
+  font-size: 20px;
+}
+.notification-close {
+  margin-left: 16px;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+.notification-close:hover {
+  opacity: 1;
+}
+
+/* Custom input number controls */
+.number-input-container {
+  position: relative;
+}
+.number-input-controls {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid #d1d5db;
+}
+.number-input-btn {
+  width: 30px;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f3f4f6;
+  cursor: pointer;
+  user-select: none;
+}
+.number-input-btn:hover {
+  background: #e5e7eb;
+}
+.number-input-btn:active {
+  background: #d1d5db;
+}
+.number-input-btn.up {
+  border-bottom: 1px solid #d1d5db;
+  border-top-right-radius: 8px;
+}
+.number-input-btn.down {
+  border-bottom-right-radius: 8px;
+}
+.number-input-container input:focus {
+  outline: none; /* Removes the default outline when focused */
+  ring-width: 2px; /* Sets the width of the focus ring */
+  box-shadow: 0 0 0 2px var(--bgcolor);
+}
+
+/* Glass Chart Styles */
+.glass-chart-container {
+  backdrop-filter: blur(16px);
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Large Size Surcharge Badge */
+.surcharge-badge {
+  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+  color: white;
+}
+
+/* 15. pricing-plans */
+.pricing-plans {
+  background-color: #ffffff;
+  padding: 24px 34px;
+  border-radius: 20px;
+}
+.pricing-plans span {
+  color: #000000;
+  font-weight: 400;
+  padding-bottom: 4px;
+  display: block;
+  font-size: 18px;
+}
+.pricing-plans h5 {
+  font-size: 60px;
+}
+.pricing-plans h5 {
+  font-size: 60px;
+  color: #000000;
+}
+.pricing-plans sub {
+  bottom: 0;
+  font-size: 16px;
+}
+.pricing-plans-text {
+  padding-top: 0;
+  position: relative;
+}
+
+.pricing-plans-text i svg {
+  width: 50px;
+  height: auto;
+}
+.pricing {
+  padding: 10px;
+  background-color: #f4f4f7;
+  border-radius: 20px;
+}
+
+.pricing button:focus,
+.pricing button:active {
+  outline: none !important;
+  box-shadow: none !important;
+}

@@ -1,0 +1,69 @@
+/* 18. tag */
+.tag > span {
+  background-color: var(--main-color);
+  display: inline-block;
+  padding: 4px 22px;
+  border-radius: 30px;
+  font-weight: bold;
+  color: #fff;
+}
+.tag > a {
+  background-color: var(--bgcolor);
+  padding: 4px 24px;
+  border-radius: 40px;
+  font-size: 16px;
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+.tag > a span {
+  padding-left: 20px;
+}
+.tag > a span i {
+  padding-right: 10px;
+}
+.blog a:hover {
+  color: var(--bgcolor);
+}
+.blog p {
+  width: 90%;
+}
+.blog:hover img {
+  transform: scale(1);
+}
+/* 19. count-style */
+.count-style {
+  padding: 50px 85px;
+  background-color: var(--bgcolor);
+  border-radius: 30px;
+  text-align: center;
+  padding-bottom: 60px;
+  z-index: 11;
+  position: relative;
+}
+.count-style h2 {
+  font-weight: bold;
+  font-size: 100px;
+}
+.count-style h2 sup {
+  font-size: 58px;
+}
+.count-style h4 {
+  font-size: 26px;
+  font-weight: bold;
+  padding-bottom: 20px;
+  padding-top: 4px;
+}
+.count-style.two {
+  background-color: #000;
+}
+.count-style.two h2 {
+  color: var(--bgcolor);
+}
+.count-style.two p,
+.count-style.two h4 {
+  color: #fff;
+}
+.count-style:hover {
+  transform: translateY(20px);
+}

@@ -1,0 +1,139 @@
+/* 20. footer */
+.footer-try {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 100px;
+}
+footer {
+  position: relative;
+  background-color: var(--main-color);
+}
+.footer-try > div {
+  width: 65%;
+}
+
+.footer-try h2 {
+  color: #fff;
+  font-size: 65px;
+  font-weight: bold;
+}
+.footer-try p {
+  color: #fff;
+  padding-top: 10px;
+}
+.footer-logo p {
+  color: #fff;
+  width: 90%;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+.footer-logo img {
+  width: 50%;
+}
+ul.social-media a i {
+  color: #fff;
+  font-size: 23px;
+}
+ul.social-media {
+  display: flex;
+  gap: 25px;
+}
+ul.social-media a:hover i {
+  color: var(--bgcolor);
+}
+/* 21. widget-title */
+.widget-title h3 {
+  font-size: 26px;
+  font-weight: bold;
+  color: #fff;
+  padding-bottom: 30px;
+}
+.widget-title ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 22px;
+}
+.widget-title ul li {
+  width: 50%;
+}
+.widget-title ul li a {
+  color: #fff;
+}
+.widget-title ul li a:hover {
+  color: var(--bgcolor);
+}
+.widget-title ul li i {
+  color: #b6a0f2;
+  padding-right: 12px;
+}
+.get-in-touch i {
+  width: 56px;
+  height: 56px;
+  border: 1px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-right: 20px;
+  color: #fff;
+  font-size: 24px;
+}
+.get-in-touch.mb-0 span {
+  padding-top: 0 !important;
+}
+.get-in-touch {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.get-in-touch:hover i {
+  background-color: #fff;
+  color: #000;
+}
+.get-in-touch span {
+  color: #fff;
+  padding-bottom: 4px;
+  display: block;
+  font-size: 18px;
+}
+.get-in-touch h6 a {
+  color: #fff;
+}
+.get-in-touch h6 a:hover {
+  color: var(--bgcolor);
+}
+footer {
+  padding-bottom: 40px !important;
+}
+/* 22. all-rights */
+.all-rights {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+  align-items: center;
+}
+.all-rights ul.star {
+  color: #fff;
+}
+.all-rights .review h6 {
+  color: #fff;
+}
+.all-rights p {
+  color: #fff;
+  font-size: 18px;
+}
+footer ul.shaps-img li:nth-child(2) {
+  top: 42%;
+  left: 6%;
+  animation: top-bottom 2s infinite;
+}
+footer ul.shaps-img li:nth-child(1) {
+  top: 9%;
+}
+footer ul.shaps-img li:nth-child(3) {
+  bottom: 54%;
+  left: 87%;
+  animation: 10s toptop infinite;
+}

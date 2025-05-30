@@ -1,0 +1,91 @@
+/* 23. scroll-percentage */
+#scroll-percentage {
+  position: absolute;
+  box-shadow: 0px 0px 20px 0px rgba(184, 184, 184, 0.75);
+  height: 60px;
+  width: 60px;
+  background-color: var(--bgcolor);
+  border-radius: 50%;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transform: scale(0);
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s;
+  z-index: 1011;
+}
+@media (max-width: 1400px) {
+  #scroll-percentage {
+    width: 50px;
+    height: 50px;
+  }
+}
+@media (max-width: 992px) {
+  #scroll-percentage {
+    right: 10px;
+  }
+}
+
+#scroll-percentage.active {
+  bottom: 30px;
+  transform: scale(1);
+  opacity: 1;
+  visibility: visible;
+  animation: 500ms ease-in-out 0s normal none 1 running scrollToTop;
+  transition: 0.3s;
+}
+@media (max-width: 1400px) {
+  #scroll-percentage.active {
+    bottom: 20px;
+  }
+}
+
+#scroll-percentage-value {
+  height: calc(100% - 6px);
+  width: calc(100% - 6px);
+  background-color: #ffffff;
+  color: #000;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#scroll-percentage-value i {
+  font-size: 20px;
+}
+
+@keyframes scrollToTop {
+  0% {
+    transform: translate3d(0, 80%, 0);
+    visibility: visible;
+  }
+  to {
+    transform: translateZ(0);
+  }
+}
+@keyframes wobble-vertical {
+  16.65% {
+    transform: translateY(8px);
+  }
+  33.3% {
+    transform: translateY(-6px);
+  }
+  49.95% {
+    transform: translateY(4px);
+  }
+  66.6% {
+    transform: translateY(-2px);
+  }
+  83.25% {
+    transform: translateY(1px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
